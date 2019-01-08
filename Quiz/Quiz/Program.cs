@@ -30,22 +30,24 @@ namespace Quiz
             return answer;
            
         }
-        static int Q2()
+        static string Q2()
         {
-            Console.WriteLine("Is my favorite color red?");
+            Console.WriteLine("What is my favorite Color?");
 
-            bool answer = Convert.ToUpper(Console.ReadLine();
+            String answer = Console.ReadLine();
 
-            if (answer == "BLUE")
+            String colorAnswer = (answer.ToUpper());
+
+            if (colorAnswer == "BLUE")
             {
-                Console.WriteLine("False");
+                Console.WriteLine(" That is my favorite.");
             }
 
             else
             {
-                Console.WriteLine("True");
+                Console.WriteLine(" That is not my favorite color.");
             }
-            return answer;
+            return colorAnswer;
 
         }
     }
