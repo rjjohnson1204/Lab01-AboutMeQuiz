@@ -6,23 +6,28 @@ namespace Quiz
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("How old am I?");
-            Console.Read();
-            int answer = Convert.ToInt32(Console.Read());
-            
-                if (answer == 34)
-            {
-                Console.WriteLine("Correct!");
-            }
-            
-            else 
-            { 
-                Console.WriteLine("Not even close!");
-            }
-           
-
+            Q1();
+            Console.ReadLine();
 
         }
         //Console.WriteLine("what is my favorite color");
+        static int Q1()
+        {
+            Console.WriteLine("How old am I?");
+
+            int answer = Convert.ToInt32(Console.ReadLine());
+
+            if (answer == 34)
+            {
+                Console.WriteLine("Correct!");
+            }
+
+            else
+            {
+                Console.WriteLine("Not even close!");
+            }
+            return answer;
+           
+        }
     }
 }
