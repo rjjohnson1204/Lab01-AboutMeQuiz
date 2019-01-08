@@ -55,7 +55,7 @@ namespace Quiz
         }
         static bool Q3()
         {
-            Console.WriteLine("I have an 3 cats? (true or false)");
+            Console.WriteLine("I have 3 cats? (true or false)");
 
             String answer = Console.ReadLine();
 
@@ -72,14 +72,6 @@ namespace Quiz
             }
 
             return petAnswer;
-
-
-
-
-
-
-
-
 
         }
     }
