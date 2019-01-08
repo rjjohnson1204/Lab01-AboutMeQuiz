@@ -10,6 +10,9 @@ namespace Quiz
             Console.ReadLine();
             Q2();
             Console.ReadLine();
+            Q3();
+            Console.ReadLine();
+
 
         }
         static int Q1()
@@ -48,6 +51,35 @@ namespace Quiz
                 Console.WriteLine(" That is not my favorite color.");
             }
             return colorAnswer;
+
+        }
+        static bool Q3()
+        {
+            Console.WriteLine("I have an 3 cats? (true or false)");
+
+            String answer = Console.ReadLine();
+
+            bool petAnswer = (Convert.ToBoolean(answer));
+
+            if (petAnswer == true)
+            {
+                Console.WriteLine("Incorrect, I have zero cats.");
+            }
+
+            else if ( petAnswer == false)
+            {
+                Console.WriteLine("Correct, I have zero cats.");
+            }
+
+            return petAnswer;
+
+
+
+
+
+
+
+
 
         }
     }
