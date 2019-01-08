@@ -8,9 +8,10 @@ namespace Quiz
         {
             Q1();
             Console.ReadLine();
+            Q2();
+            Console.ReadLine();
 
         }
-        //Console.WriteLine("what is my favorite color");
         static int Q1()
         {
             Console.WriteLine("How old am I?");
@@ -29,5 +30,24 @@ namespace Quiz
             return answer;
            
         }
+        static int Q2()
+        {
+            Console.WriteLine("Is my favorite color red?");
+
+            bool answer = Convert.ToUpper(Console.ReadLine();
+
+            if (answer == "BLUE")
+            {
+                Console.WriteLine("False");
+            }
+
+            else
+            {
+                Console.WriteLine("True");
+            }
+            return answer;
+
+        }
     }
+
 }
