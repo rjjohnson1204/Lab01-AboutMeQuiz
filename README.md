@@ -15,6 +15,7 @@ quiz about me
 				 Questions to consider:
 				 The purpose of this program is to see how well the user knows me.
 				 To start the program the user would have to "run" the program and answer the first question. After the first question, an answer will be given.
+				 Than afte the answer is given, the user will ahve to press enter to receive the next question.
 
 
 
