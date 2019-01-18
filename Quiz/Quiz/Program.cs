@@ -129,7 +129,7 @@ namespace Quiz
             try
             {
                 //ask question to user
-                Console.WriteLine("Do I like front end or back end?  (YES OR NO");
+                Console.WriteLine("Do I like front end or back end?  (YES OR NO)");
                 // takes in user response
                 String answer = Console.ReadLine();
                 // converts user response to upper case

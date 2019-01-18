@@ -3,7 +3,7 @@ quiz about me
 
 
 
-  ![About Me Quiz](https://github.com/rjjohnson1204/Lab01-AboutMeQuiz/blob/b60c385fb2a4c66829b43393e745bf77ade543f0/Quiz%20results.PNG)
+  ![About Me Quiz]( )
                     
                  1. Created a method for each question with a speific data type
 				 2. Created question in the method 
@@ -15,7 +15,7 @@ quiz about me
 				 Questions to consider:
 				 The purpose of this program is to see how well the user knows me.
 				 To start the program the user would have to "run" the program and answer the first question. After the first question, an answer will be given.
-				 Than afte the answer is given, the user will ahve to press enter to receive the next question.
+				 Than after the answer is given, the user will ahve to press enter to receive the next question.
 
 
 
