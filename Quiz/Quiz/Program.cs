@@ -21,7 +21,7 @@ namespace Quiz
             Q4();
             //taking in input from user
             Console.ReadLine();
-            // calling Q1
+            // calling Q5
             Q5();
             //taking in input from user
             Console.ReadLine();
