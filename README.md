@@ -1,6 +1,8 @@
 # Lab01-AboutMeQuiz
 quiz about me
 
+Collaborator: Jason Few
+
 
 
   ![About Me Quiz]( https://github.com/rjjohnson1204/Lab01-AboutMeQuiz/blob/master/aboutMe_capture.PNG )
@@ -16,6 +18,9 @@ quiz about me
 				 The purpose of this program is to see how well the user knows me.
 				 To start the program the user would have to "run" the program and answer the first question. After the first question, an answer will be given.
 				 Than after the answer is given, the user will ahve to press enter to receive the next question.
+
+
+
 
 
 
