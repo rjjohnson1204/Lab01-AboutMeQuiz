@@ -3,7 +3,7 @@ quiz about me
 
 
 
-  ![About Me Quiz]( )
+  ![About Me Quiz]( https://github.com/rjjohnson1204/Lab01-AboutMeQuiz/blob/master/aboutMe_capture.PNG )
                     
                  1. Created a method for each question with a speific data type
 				 2. Created question in the method 
