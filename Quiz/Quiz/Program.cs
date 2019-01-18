@@ -35,7 +35,7 @@ namespace Quiz
                 Console.WriteLine("Not even close!");
             }
             return answer;
-           
+
         }
         static string Q2()
         {
@@ -45,7 +45,7 @@ namespace Quiz
 
             String colorAnswer = (answer.ToUpper());
 
-            if (colorAnswer == "BLUE") 
+            if (colorAnswer == "BLUE")
             {
                 Console.WriteLine(" That is my favorite.");
             }
@@ -70,7 +70,7 @@ namespace Quiz
                 Console.WriteLine("Incorrect, I have zero cats.");
             }
 
-            else if ( petAnswer == false)
+            else if (petAnswer == false)
             {
                 Console.WriteLine("Correct, I have zero cats.");
             }
@@ -80,25 +80,72 @@ namespace Quiz
         }
         static bool Q4()
         {
-            Console.WriteLine("I am from Washington? (true or false)");
-
-            String answer = Console.ReadLine();
-
-            bool stateAnswer = (Convert.ToBoolean(answer));
-
-            if (stateAnswer == true)
+            try
             {
-                Console.WriteLine("False! I am not from Washington.");
+
+                Console.WriteLine("I am from Washington? (true or false)");
+
+                String answer = Console.ReadLine();
+
+                bool stateAnswer = (Convert.ToBoolean(answer));
+
+                if (stateAnswer == true)
+                {
+                    Console.WriteLine("False! I am not from Washington.");
+                }
+
+                else if (stateAnswer == false)
+                {
+                    Console.WriteLine("Correct, I am from California.");
+                }
+
+                return stateAnswer;
+            }
+            catch
+            {
+                Console.WriteLine("please answer True or False");
+                Q4();
+
+                return false;
+            }
+        }
+        static string Q5()
+        {
+            try
+            {
+
+                Console.WriteLine("Do I like front end or back end?  (YES OR NO");
+
+                String answer = Console.ReadLine();
+
+                String typeAnswer = (answer.ToUpper());
+
+                if (typeAnswer == "YES")
+                {
+                    Console.WriteLine(" Correct, I like front end.");
+                }
+
+                else
+                {
+                    Console.WriteLine(" I do not like back end....I think.");
+                }
+
+                return typeAnswer;
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                Q5();
+                return "waffles";
             }
 
-            else if (stateAnswer == false)
+            finally
             {
-                Console.WriteLine("Correct, I am from California.");
+                Console.WriteLine("fin");
             }
-
-            return stateAnswer;
 
         }
     }
-
 }
+
