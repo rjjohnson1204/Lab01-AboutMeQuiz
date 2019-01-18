@@ -12,6 +12,10 @@ namespace Quiz
             Console.ReadLine();
             Q3();
             Console.ReadLine();
+            Q4();
+            Console.ReadLine();
+            Q5();
+            Console.ReadLine();
 
 
         }
@@ -41,7 +45,7 @@ namespace Quiz
 
             String colorAnswer = (answer.ToUpper());
 
-            if (colorAnswer == "BLUE")
+            if (colorAnswer == "BLUE") 
             {
                 Console.WriteLine(" That is my favorite.");
             }
@@ -72,6 +76,27 @@ namespace Quiz
             }
 
             return petAnswer;
+
+        }
+        static bool Q4()
+        {
+            Console.WriteLine("I am from Washington? (true or false)");
+
+            String answer = Console.ReadLine();
+
+            bool stateAnswer = (Convert.ToBoolean(answer));
+
+            if (stateAnswer == true)
+            {
+                Console.WriteLine("False! I am not from Washington.");
+            }
+
+            else if (stateAnswer == false)
+            {
+                Console.WriteLine("Correct, I am from California.");
+            }
+
+            return stateAnswer;
 
         }
     }
